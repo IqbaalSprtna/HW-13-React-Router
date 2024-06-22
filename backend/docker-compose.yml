@@ -1,12 +1,11 @@
-version: '3.1'
+version: "3.9"
 
 services:
-
   db:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: mypassword
+      POSTGRES_PASSWORD: iqbal154
       POSTGRES_DB: mydatabase
     ports:
       - "5432:5432"
